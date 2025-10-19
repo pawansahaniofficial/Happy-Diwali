@@ -599,7 +599,7 @@
       const email = document.getElementById('email').value || '';
       const msg = document.getElementById('message').value || `Happy Diwali!`;
       const subject = encodeURIComponent('Happy Diwali Wishes');
-      const body = encodeURIComponent(`Hi Pawan,\n\n${msg}\n\n— ${name}${email ? ' ('+mpgamer247@gmail.com+')' : ''}`);
+      const body = encodeURIComponent(`Hi Pawan,\n\n${msg}\n\n— ${name}${email ? ' ('+email+')' : ''}`);
       window.location.href = `mailto:?subject=${subject}&body=${body}`;
     }
 
